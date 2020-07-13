@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Logo />
+      <HelloWorld />
       <h1 class="title">
         portifolio
       </h1>

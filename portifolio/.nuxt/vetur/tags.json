@@ -1,4 +1,10 @@
 {
+  "HelloWorld": {
+    "description": "Auto imported from components/HelloWorld.vue"
+  },
+  "LazyHelloWorld": {
+    "description": "Auto imported from components/HelloWorld.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
