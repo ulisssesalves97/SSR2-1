@@ -10,5 +10,11 @@
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "Bio": {
+    "description": "Auto imported from components/profile/Bio.vue"
+  },
+  "LazyBio": {
+    "description": "Auto imported from components/profile/Bio.vue"
   }
 }

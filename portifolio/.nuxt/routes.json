@@ -1,5 +1,12 @@
 [
   {
+    "name": "users",
+    "path": "/users",
+    "component": "C:\\\\Users\\\\Dell\\\\source\\\\repos\\\\puc\\\\exercicio2SSR\\\\portifolio\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_5b874fd4"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Dell\\\\source\\\\repos\\\\puc\\\\exercicio2SSR\\\\portifolio\\\\pages\\\\index.vue",
