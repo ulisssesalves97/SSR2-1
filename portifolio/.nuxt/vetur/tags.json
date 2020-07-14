@@ -16,5 +16,11 @@
   },
   "LazyBio": {
     "description": "Auto imported from components/profile/Bio.vue"
+  },
+  "ProfileFoto": {
+    "description": "Auto imported from components/profile/ProfileFoto.vue"
+  },
+  "LazyProfileFoto": {
+    "description": "Auto imported from components/profile/ProfileFoto.vue"
   }
 }
