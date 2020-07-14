@@ -4,7 +4,7 @@
       <h1 class="title">
         Usuário X
       </h1>
-      <ProfileFoto/>
+      <ProfileFoto title="TESTEEEEEE"/>
       <Bio/>
     </div>
   </div>
