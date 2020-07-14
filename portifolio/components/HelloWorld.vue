@@ -20,7 +20,7 @@ export default {
   },
   methods:{
     ContarCliques(){
-      this.clicks++;
+      this.clicks = this.clicks == 0? 2 : Math.pow(this.clicks, 2);
     }
   }
 
