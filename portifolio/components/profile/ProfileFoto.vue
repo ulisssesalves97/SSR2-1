@@ -26,10 +26,6 @@ export default {
 <style>
 
 .circle-border{
-    padding: 0.7em;
-    border-style: solid;
-    border-color:slateblue;
-    border-width: 0.5em;
     border-radius: 50%;
     width: 135px;
     height: 135px;
