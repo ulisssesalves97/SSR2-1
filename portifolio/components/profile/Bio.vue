@@ -50,5 +50,6 @@ export default {
   font-size: 1em;
   color: black;
   letter-spacing: 1px;
+  text-align: justify;
 }
 </style>
