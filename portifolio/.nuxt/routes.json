@@ -2,13 +2,13 @@
   {
     "name": "users",
     "path": "/users",
-    "component": "C:\\\\Users\\\\Ulisses Alves\\\\SSR\\\\exercicio2SSR\\\\Portifolio\\\\pages\\\\users\\\\index.vue",
+    "component": "C:\\\\Users\\\\Dell\\\\source\\\\repos\\\\puc\\\\exercicio2SSR\\\\portifolio\\\\pages\\\\users\\\\index.vue",
     "chunkName": "pages/users/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Ulisses Alves\\\\SSR\\\\exercicio2SSR\\\\Portifolio\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\Dell\\\\source\\\\repos\\\\puc\\\\exercicio2SSR\\\\portifolio\\\\pages\\\\index.vue",
     "chunkName": "pages/index"
   }
 ]
