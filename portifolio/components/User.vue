@@ -34,9 +34,13 @@ export default {
 }
 
 .user-container{
-  width: 100vw;
-  margin: 10vw;
-  padding: 10vw;
+  max-width: 80vw;
+  margin: 1.5vh 10vw;
+  padding: 1.5vh 3vw;
   text-align: center;
+  border-color: cornflowerblue;
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 1em;
 }
 </style>
