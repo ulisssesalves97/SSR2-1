@@ -1,9 +1,8 @@
 <template>
   <div>
-    {{ title }}
-    <div>
-      <img class="circle-border" v-bind:src="src">
-    </div>
+    <h1 class="users-title">{{ user.name.title }} {{ user.name.first }} {{ user.name.last }}</h1>
+    <ProfileFoto v-bind:src="user.picture.large" />
+    <Bio />
   </div>
 </template>
 
@@ -16,7 +15,7 @@ function GetRandomInt(min, max) {
 
 export default {
   props:{
-    src: String
+    user: Object
   },
   data(){
     return { 
@@ -28,10 +27,9 @@ export default {
 </script>
 
 <style>
-
-.circle-border{
-    border-radius: 50%;
-    width: 135px;
-    height: 135px;
+.circle-border {
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
 }
 </style>

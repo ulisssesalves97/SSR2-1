@@ -51,7 +51,6 @@ export default {
   color: black;
   letter-spacing: 1px;
   text-align: justify;
-  
   padding: 1em;
   border-width: 0.5em;
   border-style: solid;
