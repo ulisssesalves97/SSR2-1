@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="user-container">
     <h1 class="users-title">{{ user.name.title }} {{ user.name.first }} {{ user.name.last }}</h1>
     <ProfileFoto v-bind:src="user.picture.large" />
     <Bio />
@@ -31,5 +31,12 @@ export default {
   border-radius: 50%;
   width: 135px;
   height: 135px;
+}
+
+.user-container{
+  width: 100vw;
+  margin: 10vw;
+  padding: 10vw;
+  text-align: center;
 }
 </style>
