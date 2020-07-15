@@ -1,7 +1,8 @@
 <template>
   <div>
+    {{ title }}
     <div>
-      <img class="circle-border" v-bind:src="randomUserProfileFotoUrl">
+      <img class="circle-border" v-bind:src="src">
     </div>
   </div>
 </template>
@@ -14,6 +15,9 @@ function GetRandomInt(min, max) {
 }
 
 export default {
+  props:{
+    src: String
+  },
   data(){
     return { 
         randomUserProfileFotoUrl: `https://randomuser.me/portraits/men/${GetRandomInt(1, 50)}.jpg`

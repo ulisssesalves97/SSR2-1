@@ -6,7 +6,15 @@
         <button class="bio-botao">Ver mais</button>
       </div>
       <div v-bind:class="{ ocultar: bio != 'completo' }" v-on:click="MostrarResumo()">
-        {{ completo }}
+        <div>
+          {{ completo }}
+        </div>
+
+        <div class="skills">
+          <div v-for="skill in skills">
+            <Card v-bind:skill="skill"/>
+          </div>
+        </div>
         <button class="bio-botao">Ver menos</button>
       </div>
     </div>
@@ -15,6 +23,9 @@
 
 <script>
 export default {
+  props:{
+    skills: Array
+  },
   data(){
     return {
         bio: 'resumo',
@@ -51,7 +62,6 @@ export default {
   color: black;
   letter-spacing: 1px;
   text-align: justify;
-  
   padding: 1em;
   border-width: 0.5em;
   border-style: solid;
@@ -61,5 +71,10 @@ export default {
       slateblue, 
       rgba(0, 0, 0, 0)
     ) 1 100%;
+}
+
+.skills{
+  display: flex;
+  overflow: overlay;
 }
 </style>

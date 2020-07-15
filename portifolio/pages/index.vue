@@ -1,28 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <HelloWorld />
-      <h1 class="title">
-        portifolio
-      </h1>
+      <h1 class="title">portifolio.io</h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <nuxt-link to="/users" class="button--grey">Conheça nossos desenvlvedores</nuxt-link>
       </div>
     </div>
   </div>

@@ -1,4 +1,10 @@
 {
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "LazyCard": {
+    "description": "Auto imported from components/Card.vue"
+  },
   "HelloWorld": {
     "description": "Auto imported from components/HelloWorld.vue"
   },
@@ -10,6 +16,12 @@
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "User": {
+    "description": "Auto imported from components/User.vue"
+  },
+  "LazyUser": {
+    "description": "Auto imported from components/User.vue"
   },
   "Bio": {
     "description": "Auto imported from components/profile/Bio.vue"
