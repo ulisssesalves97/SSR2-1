@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="users-container">
     <div>
-      <h1 class="title">
+      <h1 class="users-title">
         Usuário X
       </h1>
       <ProfileFoto title="TESTEEEEEE"/>
@@ -15,7 +15,7 @@ export default {}
 </script>
 
 <style>
-.container {
+.users-container {
   margin: 0 auto;
   min-height: 30vh;
   display: flex;
@@ -24,7 +24,7 @@ export default {}
   text-align: center;
 }
 
-.title {
+.users-title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
@@ -32,17 +32,5 @@ export default {}
   font-size: 3em;
   color: #35495e;
   letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>
