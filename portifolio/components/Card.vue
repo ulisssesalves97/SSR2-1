@@ -1,12 +1,15 @@
 <template>
-  <div class="Card">
-    <p v-for="habilidade in habilidades" class="item">
-      {{ habilidade }}
-    </p>
+  <div class="card">
+    <p class="skill-item">{{ skill }}</p>
   </div>
 </template>
 <style>
-.item {
+.card{
+  margin: 1em;
+  padding: 1em;
+}
+
+.skill-item {
   position: relative;
   width: 200px;
   height: 200px;
@@ -23,6 +26,9 @@
 <script>
 export default {
   name: 'Card',
+  props:{
+    skill: String
+  },
   data() {
     return {
       habilidades: ['React', 'Ulisses'],

@@ -48,7 +48,12 @@ export default {
             medium: 'https://randomuser.me/api/portraits/med/women/12.jpg',
             thumbnail: 'https://randomuser.me/api/portraits/thumb/women/12.jpg',
           },
-          nat: 'NL'
+          nat: 'NL',
+          skills: [
+            "React",
+            "Vue.js",
+            "C#"
+          ]
         },
         {
           gender: 'female',
@@ -87,7 +92,13 @@ export default {
             medium: 'https://randomuser.me/api/portraits/med/women/21.jpg',
             thumbnail: 'https://randomuser.me/api/portraits/thumb/women/21.jpg',
           },
-          nat: 'DK'
+          nat: 'DK',
+          skills: [
+            "Nuxt.js",
+            "Nest.js",
+            "Vue.js",
+            "Angular"
+          ]
         },
         {
           gender: 'male',
@@ -126,7 +137,15 @@ export default {
             medium: 'https://randomuser.me/api/portraits/med/men/46.jpg',
             thumbnail: 'https://randomuser.me/api/portraits/thumb/men/46.jpg',
           },
-          nat: 'IE'
+          nat: 'IE',
+          skills: [
+            ".net core",
+            ".net framework",
+            "C#",
+            "C",
+            "C++",
+            "Java"
+          ]
         },
         {
           gender: 'male',
@@ -165,7 +184,12 @@ export default {
             medium: 'https://randomuser.me/api/portraits/med/men/36.jpg',
             thumbnail: 'https://randomuser.me/api/portraits/thumb/men/36.jpg',
           },
-          nat: 'NO'
+          nat: 'NO',
+          skills: [
+            "Angular",
+            "Vue.js",
+            "JavaScript (Vanilla)",
+          ]
         }
       ]
     }

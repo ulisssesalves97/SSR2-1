@@ -2,7 +2,7 @@
   <div class="user-container">
     <h1 class="users-title">{{ user.name.title }} {{ user.name.first }} {{ user.name.last }}</h1>
     <ProfileFoto v-bind:src="user.picture.large" />
-    <Bio />
+    <Bio v-bind:skills="user.skills" />
   </div>
 </template>
 
